@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(4, 26, 53);
+  background-color: rgb(215, 137, 59);
 }
 .container {
   max-width: 1110px;
@@ -67,9 +67,12 @@ h4 {
   background-color: transparent;
   width: 200px;
   height: 180px;
-  margin-left: auto;
-  margin-left: 530px;
+  margin-left: 550px;
+  margin-right: 550px;
   margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  
 }
 .modal {
   width: 1000px;
@@ -133,4 +136,8 @@ h4 {
 }
 h4{
     margin-bottom: 30px;
+}
+.loading{
+  justify-content: center;
+  margin-left: 220px;
 }
